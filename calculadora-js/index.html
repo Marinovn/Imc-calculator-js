@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>app</title>
+</head>
+<body>
+<div id="container" class="contenedor">
+    <div class="container" id="app">
+        <div>
+            <h1>Calculadora IMC</h1>
+        </div>
+        <div class="form-group">
+            <label><strong>Peso</strong></label><br>
+            <input type="number" min="30" max="200" class="mr-0" id="peso">
+        </div>
+        
+        <div class="form-group">
+            <label><strong>Altura</strong></label><br>
+            <input type="number" min="1.40" max="2.40" id="altura">
+        </div>
+        <div class="form-group">
+            <button id="btnCalcular" class="mt-2 ml-2 btn btn-dark">Calcular IMC</button>
+        </div>
+     </div>
+
+</div>    
+    <img src="./img/image001.png" class="imgverde" id="imagen" alt="">
+    <footer class="blockquote-footer foot">
+        Todos los derechos Reservados vMarino
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body{
+    background: #C9D6FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.alerta{
+    background-color: red;
+}
+.contenedor{
+    position: absolute;
+    font-size: 20px;
+    width: 490px;
+    height: 450px;
+    top: 40px;
+    left: 40px;
+    padding: 10px;
+}
+
+.imgverde{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    padding: 10px;
+    max-height: 400px;
+    max-width: 600px;
+    box-shadow: 0 0 10px 4px green;
+}
+.imgrojo{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    max-height: 400px;
+    max-width: 600px;
+    box-shadow: 0 0 10px 4px red;
+}
+
+input{
+    width: 50%;
+}
+
+.foot{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    
+    font-size: 17px;
+}
